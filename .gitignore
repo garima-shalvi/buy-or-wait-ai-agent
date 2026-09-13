@@ -3,4 +3,5 @@ dataset/
 *.pyc
 __pycache__/
 venv/
-.venv/
+.venv/log.txt
+/log.txt
