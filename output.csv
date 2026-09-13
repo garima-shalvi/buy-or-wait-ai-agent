@@ -1,0 +1,251 @@
+request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
+request_26,15656000.00,affordable_now,full_payment,2025-08-03:15656000.00,2025-08-03,none,IDR 15656000.00 of IDR 15656000.00 is safe to pay now while keeping the minimum balance protected.
+request_27,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 6670.00 cannot be completed safely while protecting the minimum balance.
+request_28,427.92,affordable_later,wait,none,2024-07-15,none,The full EUR 1302.40 is not safe now but is expected to be safe from 2024-07-15 while protecting the minimum balance.
+request_29,33251.98,not_affordable,not_recommended,none,,none,"Only ZAR 33251.98 is currently safe, so the requested ZAR 51524.00 should not proceed."
+request_30,775.20,affordable_with_plan,installments,2026-04-06:268.74|2026-05-06:268.74|2026-06-05:268.74,2026-04-06,none,The full USD 775.20 can be completed through the selected installment plan while protecting the minimum balance.
+request_31,6009674.48,not_affordable,not_recommended,none,,none,"Only IDR 6009674.48 is currently safe, so the requested IDR 18164000.00 should not proceed."
+request_32,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 40018.00 cannot be completed safely while protecting the minimum balance.
+request_33,46085.73,affordable_later,wait,none,2026-01-15,none,The full INR 118000.00 is not safe now but is expected to be safe from 2026-01-15 while protecting the minimum balance.
+request_34,0.00,not_affordable,not_recommended,none,,none,The requested INR 129400.00 cannot be completed safely while protecting the minimum balance.
+request_35,44549.82,affordable_later,wait,none,2026-01-15,none,The full INR 212000.00 is not safe now but is expected to be safe from 2026-01-15 while protecting the minimum balance.
+request_36,863.87,affordable_later,wait,none,2026-07-15,none,The full USD 3954.00 is not safe now but is expected to be safe from 2026-07-15 while protecting the minimum balance.
+request_37,5198407.80,affordable_later,wait,none,2024-05-15,none,The full IDR 14649000.00 is not safe now but is expected to be safe from 2024-05-15 while protecting the minimum balance.
+request_38,222.33,affordable_later,wait,none,2025-09-15,none,The full EUR 971.30 is not safe now but is expected to be safe from 2025-09-15 while protecting the minimum balance.
+request_39,84140.95,affordable_later,wait,none,2026-04-15,none,The full INR 208600.00 is not safe now but is expected to be safe from 2026-04-15 while protecting the minimum balance.
+request_40,0.00,not_affordable,not_recommended,none,,none,The requested EUR 1290.30 cannot be completed safely while protecting the minimum balance.
+request_41,11883997.75,affordable_later,wait,none,2025-11-15,none,The full IDR 38760000.00 is not safe now but is expected to be safe from 2025-11-15 while protecting the minimum balance.
+request_42,52100.00,affordable_now,full_payment,2026-01-05:52100.00,2026-01-05,none,INR 52100.00 of INR 52100.00 is safe to pay now while keeping the minimum balance protected.
+request_43,11056940.49,affordable_later,wait,none,2024-09-15,none,The full IDR 43339000.00 is not safe now but is expected to be safe from 2024-09-15 while protecting the minimum balance.
+request_44,0.00,not_affordable,not_recommended,none,,none,The requested INR 95800.00 cannot be completed safely while protecting the minimum balance.
+request_45,4803831.95,affordable_later,wait,none,2026-07-15,none,The full IDR 21983000.00 is not safe now but is expected to be safe from 2026-07-15 while protecting the minimum balance.
+request_46,44130.37,affordable_with_plan,installments,2024-12-03:25714.00|2024-12-31:25714.00,2024-12-15,none,The full INR 49450.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_47,33088960.56,affordable_now,full_payment,2025-05-05:38114000.00,,stop:event_4339|stop:event_4340|stop:event_4341,IDR 33088960.56 of IDR 38114000.00 is safe to pay now while keeping the minimum balance protected.
+request_48,45700.00,affordable_now,full_payment,2026-07-25:45700.00,2026-07-25,none,INR 45700.00 of INR 45700.00 is safe to pay now while keeping the minimum balance protected.
+request_49,0.00,not_affordable,not_recommended,none,,none,The requested IDR 34333000.00 cannot be completed safely while protecting the minimum balance.
+request_50,0.00,affordable_now,full_payment,2025-08-06:43900.00,,reduce_to:event_4680:1928.0,INR 0.00 of INR 43900.00 is safe to pay now while keeping the minimum balance protected.
+request_51,2191000.00,affordable_now,full_payment,2026-01-03:2191000.00,2026-01-03,none,IDR 2191000.00 of IDR 2191000.00 is safe to pay now while keeping the minimum balance protected.
+request_52,22063.42,affordable_later,wait,none,2024-06-15,none,The full INR 28870.00 is not safe now but is expected to be safe from 2024-06-15 while protecting the minimum balance.
+request_53,623.55,affordable_with_plan,installments,2025-11-21:589.06|2025-12-19:589.06|2026-01-16:589.06,2026-01-15,none,The full USD 1699.20 can be completed through the selected installment plan while protecting the minimum balance.
+request_54,6607.67,affordable_later,wait,none,2026-09-15,none,The full ZAR 121528.00 is not safe now but is expected to be safe from 2026-09-15 while protecting the minimum balance.
+request_55,129781.87,affordable_with_plan,installments,2026-06-11:75781.33|2026-07-12:75781.33|2026-08-12:75781.33,2026-06-15,none,The full INR 218600.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_56,778.78,affordable_with_plan,installments,2025-02-03:458.42|2025-03-03:458.42,2025-02-15,none,The full USD 881.56 can be completed through the selected installment plan while protecting the minimum balance.
+request_57,12790.14,affordable_later,wait,none,2026-06-15,none,The full ZAR 61446.00 is not safe now but is expected to be safe from 2026-06-15 while protecting the minimum balance.
+request_58,16226000.00,affordable_now,full_payment,2024-12-07:16226000.00,2024-12-07,none,IDR 16226000.00 of IDR 16226000.00 is safe to pay now while keeping the minimum balance protected.
+request_59,140600.00,affordable_with_plan,installments,2025-05-07:48741.33|2025-06-04:48741.33|2025-07-02:48741.33,2025-05-04,none,The full INR 140600.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_60,199.89,affordable_now,full_payment,2026-01-06:199.89,2026-01-06,none,USD 199.89 of USD 199.89 is safe to pay now while keeping the minimum balance protected.
+request_61,29062.00,affordable_with_plan,installments,2024-03-17:10074.83|2024-04-17:10074.83|2024-05-18:10074.83,2024-03-03,none,The full ZAR 29062.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_62,0.00,not_affordable,not_recommended,none,,none,The requested USD 404.23 cannot be completed safely while protecting the minimum balance.
+request_63,67647.64,affordable_later,wait,none,2026-07-15,none,The full INR 343900.00 is not safe now but is expected to be safe from 2026-07-15 while protecting the minimum balance.
+request_64,48591.56,affordable_with_plan,installments,2024-06-11:22082.67|2024-07-12:22082.67|2024-08-12:22082.67,2024-06-15,none,The full INR 63700.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_65,8059.68,affordable_later,wait,none,2026-02-15,none,The full ZAR 54340.00 is not safe now but is expected to be safe from 2026-02-15 while protecting the minimum balance.
+request_66,0.00,not_affordable,not_recommended,none,,none,The requested INR 22200.00 cannot be completed safely while protecting the minimum balance.
+request_67,0.00,not_affordable,not_recommended,none,,none,The requested USD 2094.00 cannot be completed safely while protecting the minimum balance.
+request_68,1629.68,affordable_with_plan,installments,2025-02-14:725.09|2025-03-14:725.09|2025-04-11:725.09,2025-02-15,none,The full USD 2091.60 can be completed through the selected installment plan while protecting the minimum balance.
+request_69,529.10,affordable_now,full_payment,2026-01-04:529.10,2026-01-04,none,EUR 529.10 of EUR 529.10 is safe to pay now while keeping the minimum balance protected.
+request_70,61135.81,affordable_later,wait,none,2025-01-15,none,The full INR 243900.00 is not safe now but is expected to be safe from 2025-01-15 while protecting the minimum balance.
+request_71,2217740.02,affordable_later,wait,none,2025-06-15,none,The full IDR 21451000.00 is not safe now but is expected to be safe from 2025-06-15 while protecting the minimum balance.
+request_72,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 11330.00 cannot be completed safely while protecting the minimum balance.
+request_73,71400.00,affordable_now,full_payment,2023-01-20:71400.00,2023-01-20,none,INR 71400.00 of INR 71400.00 is safe to pay now while keeping the minimum balance protected.
+request_74,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 5010.00 cannot be completed safely while protecting the minimum balance.
+request_75,28270.00,affordable_with_plan,installments,2026-04-09:9800.27|2026-05-09:9800.27|2026-06-08:9800.27,2026-04-06,none,The full ZAR 28270.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_76,949.83,affordable_later,wait,none,2025-04-15,none,The full USD 4455.60 is not safe now but is expected to be safe from 2025-04-15 while protecting the minimum balance.
+request_77,60700.00,affordable_now,full_payment,2025-11-05:60700.00,2025-11-05,none,INR 60700.00 of INR 60700.00 is safe to pay now while keeping the minimum balance protected.
+request_78,50200.00,affordable_now,full_payment,2025-10-02:50200.00,2025-10-02,none,INR 50200.00 of INR 50200.00 is safe to pay now while keeping the minimum balance protected.
+request_79,430.27,affordable_later,wait,none,2024-09-15,none,The full EUR 2151.60 is not safe now but is expected to be safe from 2024-09-15 while protecting the minimum balance.
+request_80,132120.00,not_affordable,not_recommended,none,,none,"Only INR 132120.00 is currently safe, so the requested INR 217500.00 should not proceed."
+request_81,2076.00,affordable_now,full_payment,2026-07-03:2076.00,2026-07-03,none,USD 2076.00 of USD 2076.00 is safe to pay now while keeping the minimum balance protected.
+request_82,632.67,affordable_later,wait,none,2024-12-15,none,The full USD 1405.20 is not safe now but is expected to be safe from 2024-12-15 while protecting the minimum balance.
+request_83,12860.95,not_affordable,not_recommended,none,,none,"Only INR 12860.95 is currently safe, so the requested INR 156200.00 should not proceed."
+request_84,36102.32,affordable_later,wait,none,2026-05-15,none,The full INR 95400.00 is not safe now but is expected to be safe from 2026-05-15 while protecting the minimum balance.
+request_85,0.00,not_affordable,not_recommended,none,,none,The requested IDR 19304000.00 cannot be completed safely while protecting the minimum balance.
+request_86,46300.00,affordable_now,full_payment,2025-08-03:46300.00,2025-08-03,none,INR 46300.00 of INR 46300.00 is safe to pay now while keeping the minimum balance protected.
+request_87,0.00,not_affordable,not_recommended,none,,none,The requested INR 487900.00 cannot be completed safely while protecting the minimum balance.
+request_88,11959.79,affordable_with_plan,installments,2024-06-14:9045.23|2024-07-15:9045.23|2024-08-15:9045.23,2024-06-15,none,The full ZAR 26092.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_89,10950060.04,affordable_with_plan,installments,2025-11-18:4768746.67|2025-12-16:4768746.67|2026-01-13:4768746.67,2025-11-15,none,The full IDR 13756000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_90,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 2560.00 cannot be completed safely while protecting the minimum balance.
+request_91,691.20,affordable_later,wait,none,2024-10-15,none,The full EUR 1927.20 is not safe now but is expected to be safe from 2024-10-15 while protecting the minimum balance.
+request_92,34034.00,affordable_now,full_payment,2025-02-05:34034.00,2025-02-05,none,ZAR 34034.00 of ZAR 34034.00 is safe to pay now while keeping the minimum balance protected.
+request_93,1729.20,affordable_now,full_payment,2026-04-07:1729.20,2026-04-07,none,USD 1729.20 of USD 1729.20 is safe to pay now while keeping the minimum balance protected.
+request_94,0.00,not_affordable,not_recommended,none,,none,The requested EUR 572.00 cannot be completed safely while protecting the minimum balance.
+request_95,59262.77,affordable_later,wait,none,2025-10-15,none,The full INR 553000.00 is not safe now but is expected to be safe from 2025-10-15 while protecting the minimum balance.
+request_96,41271.29,not_affordable,not_recommended,none,,none,"Only INR 41271.29 is currently safe, so the requested INR 90200.00 should not proceed."
+request_97,2960.25,affordable_with_plan,installments,2024-03-19:8145.28|2024-04-19:8145.28|2024-05-20:8145.28,2024-03-15,none,The full ZAR 23496.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_98,11277.72,affordable_later,wait,none,2025-08-15,none,The full ZAR 27148.00 is not safe now but is expected to be safe from 2025-08-15 while protecting the minimum balance.
+request_99,18062.00,affordable_now,full_payment,2026-07-04:18062.00,2026-07-04,none,ZAR 18062.00 of ZAR 18062.00 is safe to pay now while keeping the minimum balance protected.
+request_100,30643.57,affordable_with_plan,installments,2024-06-13:12866.19|2024-07-14:12866.19|2024-08-14:12866.19,2024-06-15,none,The full ZAR 37114.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_101,143500.00,affordable_now,full_payment,2025-11-03:143500.00,2025-11-03,none,INR 143500.00 of INR 143500.00 is safe to pay now while keeping the minimum balance protected.
+request_102,1716.00,affordable_with_plan,installments,2026-04-05:594.88|2026-05-05:594.88|2026-06-04:594.88,2026-04-05,none,The full EUR 1716.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_103,0.00,not_affordable,not_recommended,none,,none,The requested INR 368300.00 cannot be completed safely while protecting the minimum balance.
+request_104,17204.00,affordable_now,full_payment,2025-02-04:17204.00,2025-02-04,none,ZAR 17204.00 of ZAR 17204.00 is safe to pay now while keeping the minimum balance protected.
+request_105,53500.00,affordable_now,full_payment,2026-06-08:53500.00,2026-06-08,none,INR 53500.00 of INR 53500.00 is safe to pay now while keeping the minimum balance protected.
+request_106,539.84,affordable_later,wait,none,2024-12-15,none,The full EUR 2207.70 is not safe now but is expected to be safe from 2024-12-15 while protecting the minimum balance.
+request_107,1908.82,not_affordable,not_recommended,none,,none,"Only EUR 1908.82 is currently safe, so the requested EUR 2534.40 should not proceed."
+request_108,4760.19,affordable_later,wait,none,2026-11-15,none,The full ZAR 55308.00 is not safe now but is expected to be safe from 2026-11-15 while protecting the minimum balance.
+request_109,806.72,affordable_with_plan,installments,2024-03-18:645.98|2024-04-18:645.98|2024-05-19:645.98,2024-03-15,none,The full EUR 1863.40 can be completed through the selected installment plan while protecting the minimum balance.
+request_110,22352.00,affordable_with_plan,installments,2025-08-06:7748.69|2025-09-03:7748.69|2025-10-01:7748.69,2025-08-06,none,The full ZAR 22352.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_111,16625000.00,affordable_now,full_payment,2026-04-03:16625000.00,2026-04-03,none,IDR 16625000.00 of IDR 16625000.00 is safe to pay now while keeping the minimum balance protected.
+request_112,0.00,not_affordable,not_recommended,none,,none,The requested EUR 271.70 cannot be completed safely while protecting the minimum balance.
+request_113,36500.00,affordable_now,full_payment,2026-09-04:36500.00,2026-09-04,none,INR 36500.00 of INR 36500.00 is safe to pay now while keeping the minimum balance protected.
+request_114,65300.00,affordable_now,full_payment,2026-01-04:65300.00,2026-01-04,none,INR 65300.00 of INR 65300.00 is safe to pay now while keeping the minimum balance protected.
+request_115,16803.84,affordable_later,wait,none,2024-10-15,none,The full INR 80500.00 is not safe now but is expected to be safe from 2024-10-15 while protecting the minimum balance.
+request_116,22660.73,affordable_later,wait,none,2025-04-15,none,The full INR 241200.00 is not safe now but is expected to be safe from 2025-04-15 while protecting the minimum balance.
+request_117,880.00,affordable_now,full_payment,2026-07-05:880.00,2026-07-05,none,EUR 880.00 of EUR 880.00 is safe to pay now while keeping the minimum balance protected.
+request_118,669.47,affordable_with_plan,installments,2024-12-07:255.87|2025-01-07:255.87|2025-02-07:255.87,2024-12-15,none,The full EUR 738.10 can be completed through the selected installment plan while protecting the minimum balance.
+request_119,62321.90,not_affordable,not_recommended,none,,none,"Only INR 62321.90 is currently safe, so the requested INR 203500.00 should not proceed."
+request_120,7714000.00,affordable_now,full_payment,2026-04-06:7714000.00,2026-04-06,none,IDR 7714000.00 of IDR 7714000.00 is safe to pay now while keeping the minimum balance protected.
+request_121,633.60,affordable_now,full_payment,2024-03-03:633.60,2024-03-03,none,USD 633.60 of USD 633.60 is safe to pay now while keeping the minimum balance protected.
+request_122,20558000.00,affordable_with_plan,installments,2025-08-05:7126773.33|2025-09-02:7126773.33|2025-09-30:7126773.33,2025-08-05,none,The full IDR 20558000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_123,0.00,not_affordable,not_recommended,none,,none,The requested IDR 4076000.00 cannot be completed safely while protecting the minimum balance.
+request_124,1497.09,affordable_with_plan,installments,2024-06-11:1076.12|2024-07-12:1076.12|2024-08-12:1076.12,2024-06-15,none,The full EUR 3104.20 can be completed through the selected installment plan while protecting the minimum balance.
+request_125,6468.00,affordable_now,full_payment,2025-11-06:6468.00,2025-11-06,none,ZAR 6468.00 of ZAR 6468.00 is safe to pay now while keeping the minimum balance protected.
+request_126,43011.16,not_affordable,not_recommended,none,,none,"Only INR 43011.16 is currently safe, so the requested INR 159600.00 should not proceed."
+request_127,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 23980.00 cannot be completed safely while protecting the minimum balance.
+request_128,25168.00,affordable_now,full_payment,2025-02-07:25168.00,2025-02-07,none,ZAR 25168.00 of ZAR 25168.00 is safe to pay now while keeping the minimum balance protected.
+request_129,159.01,not_affordable,not_recommended,none,,none,"Only USD 159.01 is currently safe, so the requested USD 2668.80 should not proceed."
+request_130,0.00,not_affordable,not_recommended,none,,none,The requested USD 1978.80 cannot be completed safely while protecting the minimum balance.
+request_131,1493.67,affordable_with_plan,installments,2025-05-06:643.14|2025-06-03:643.14|2025-07-01:643.14,2025-05-15,none,The full USD 1855.20 can be completed through the selected installment plan while protecting the minimum balance.
+request_132,379.86,affordable_now,full_payment,2026-01-05:379.86,2026-01-05,none,USD 379.86 of USD 379.86 is safe to pay now while keeping the minimum balance protected.
+request_133,0.00,not_affordable,not_recommended,none,,none,The requested IDR 15770000.00 cannot be completed safely while protecting the minimum balance.
+request_134,7407746.83,affordable_later,wait,none,2025-08-15,none,The full IDR 21831000.00 is not safe now but is expected to be safe from 2025-08-15 while protecting the minimum balance.
+request_135,304.80,affordable_now,full_payment,2026-07-06:304.80,2026-07-06,none,USD 304.80 of USD 304.80 is safe to pay now while keeping the minimum balance protected.
+request_136,560.40,affordable_now,full_payment,2024-06-03:560.40,2024-06-03,none,USD 560.40 of USD 560.40 is safe to pay now while keeping the minimum balance protected.
+request_137,37380.24,affordable_later,wait,none,2025-12-15,none,The full INR 80100.00 is not safe now but is expected to be safe from 2025-12-15 while protecting the minimum balance.
+request_138,999.38,affordable_with_plan,installments,2026-04-07:435.74|2026-05-05:435.74|2026-06-02:435.74,2026-04-15,none,The full EUR 1256.94 can be completed through the selected installment plan while protecting the minimum balance.
+request_139,1485.76,affordable_with_plan,installments,2024-09-07:802.88|2024-10-08:802.88|2024-11-08:802.88,2024-09-15,none,The full USD 2316.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_140,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 62832.00 cannot be completed safely while protecting the minimum balance.
+request_141,37327.85,affordable_later,wait,none,2026-03-15,none,The full INR 171600.00 is not safe now but is expected to be safe from 2026-03-15 while protecting the minimum balance.
+request_142,0.00,not_affordable,not_recommended,none,,none,The requested USD 1263.60 cannot be completed safely while protecting the minimum balance.
+request_143,4899.05,affordable_later,wait,none,2025-06-15,none,The full ZAR 12584.00 is not safe now but is expected to be safe from 2025-06-15 while protecting the minimum balance.
+request_144,0.00,not_affordable,not_recommended,none,,none,The requested USD 233.34 cannot be completed safely while protecting the minimum balance.
+request_145,50180.19,affordable_with_plan,installments,2024-03-20:75365.33|2024-04-20:75365.33|2024-05-21:75365.33,2024-04-15,none,The full INR 217400.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_146,27847.22,affordable_later,wait,none,2025-10-15,none,The full INR 449400.00 is not safe now but is expected to be safe from 2025-10-15 while protecting the minimum balance.
+request_147,299.08,not_affordable,not_recommended,none,,none,"Only EUR 299.08 is currently safe, so the requested EUR 1129.70 should not proceed."
+request_148,10456.18,affordable_with_plan,installments,2024-06-14:7710.56|2024-07-15:7710.56|2024-08-15:7710.56,2024-06-15,none,The full ZAR 22242.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_149,25585.29,affordable_with_plan,installments,2025-11-18:12706.03|2025-12-16:12706.03|2026-01-13:12706.03,2025-11-15,none,The full ZAR 36652.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_150,368.69,affordable_with_plan,installments,2026-01-06:171.98|2026-02-05:171.98|2026-03-07:171.98,2026-01-15,none,The full EUR 496.10 can be completed through the selected installment plan while protecting the minimum balance.
+request_151,26999000.00,affordable_now,full_payment,2024-09-03:26999000.00,2024-09-03,none,IDR 26999000.00 of IDR 26999000.00 is safe to pay now while keeping the minimum balance protected.
+request_152,12416.74,affordable_with_plan,installments,2025-02-12:4812.43|2025-03-12:4812.43|2025-04-09:4812.43,2025-02-15,none,The full ZAR 13882.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_153,272.64,affordable_later,wait,none,2026-09-15,none,The full USD 2830.80 is not safe now but is expected to be safe from 2026-09-15 while protecting the minimum balance.
+request_154,1625.80,affordable_with_plan,installments,2024-12-04:563.61|2025-01-04:563.61|2025-02-04:563.61,2024-12-04,none,The full EUR 1625.80 can be completed through the selected installment plan while protecting the minimum balance.
+request_155,0.00,not_affordable,not_recommended,none,,none,The requested INR 112500.00 cannot be completed safely while protecting the minimum balance.
+request_156,11447.86,affordable_later,wait,none,2026-05-15,none,The full ZAR 43076.00 is not safe now but is expected to be safe from 2026-05-15 while protecting the minimum balance.
+request_157,0.00,not_affordable,not_recommended,none,,none,The requested IDR 23503000.00 cannot be completed safely while protecting the minimum balance.
+request_158,242600.00,affordable_with_plan,installments,2025-08-07:84101.33|2025-09-04:84101.33|2025-10-02:84101.33,2025-08-07,none,The full INR 242600.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_159,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 13398.00 cannot be completed safely while protecting the minimum balance.
+request_160,730.61,affordable_with_plan,installments,2024-06-13:432.05|2024-07-14:432.05|2024-08-14:432.05,2024-06-15,none,The full EUR 1246.30 can be completed through the selected installment plan while protecting the minimum balance.
+request_161,0.00,not_affordable,not_recommended,none,,none,The requested IDR 21204000.00 cannot be completed safely while protecting the minimum balance.
+request_162,6292415.27,affordable_later,wait,none,2026-10-15,none,The full IDR 83923000.00 is not safe now but is expected to be safe from 2026-10-15 while protecting the minimum balance.
+request_163,15001062.00,affordable_with_plan,installments,2024-09-10:6692053.33|2024-10-11:6692053.33|2024-11-11:6692053.33,2024-09-15,none,The full IDR 19304000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_164,27018000.00,affordable_with_plan,installments,2025-02-11:9366240.00|2025-03-11:9366240.00|2025-04-08:9366240.00,2025-02-04,none,The full IDR 27018000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_165,80600.00,affordable_now,full_payment,2026-04-06:80600.00,2026-04-06,none,INR 80600.00 of INR 80600.00 is safe to pay now while keeping the minimum balance protected.
+request_166,2907.60,affordable_with_plan,installments,2024-12-03:1007.97|2025-01-03:1007.97|2025-02-03:1007.97,2024-12-03,none,The full USD 2907.60 can be completed through the selected installment plan while protecting the minimum balance.
+request_167,43802.00,affordable_now,full_payment,2025-05-05:43802.00,2025-05-05,none,ZAR 43802.00 of ZAR 43802.00 is safe to pay now while keeping the minimum balance protected.
+request_168,43454.63,affordable_later,wait,none,2026-01-15,none,The full INR 49380.00 is not safe now but is expected to be safe from 2026-01-15 while protecting the minimum balance.
+request_169,41976.00,affordable_now,full_payment,2024-03-04:41976.00,2024-03-04,none,ZAR 41976.00 of ZAR 41976.00 is safe to pay now while keeping the minimum balance protected.
+request_170,34422077.09,affordable_with_plan,installments,2025-08-06:12804480.00|2025-09-03:12804480.00|2025-10-01:12804480.00,2025-08-15,none,The full IDR 36936000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_171,110.95,not_affordable,not_recommended,none,,none,"Only EUR 110.95 is currently safe, so the requested EUR 1878.80 should not proceed."
+request_172,10200.00,affordable_with_plan,installments,2024-06-05:5304.00|2024-07-03:5304.00,2024-06-05,none,The full ZAR 10200.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_173,69931.37,affordable_with_plan,installments,2025-11-21:39173.33|2025-12-19:39173.33|2026-01-16:39173.33,2025-11-15,none,The full INR 113000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_174,1146.20,affordable_with_plan,installments,2026-04-04:397.35|2026-05-04:397.35|2026-06-03:397.35,2026-04-04,none,The full EUR 1146.20 can be completed through the selected installment plan while protecting the minimum balance.
+request_175,0.00,not_affordable,not_recommended,none,,none,The requested EUR 2346.30 cannot be completed safely while protecting the minimum balance.
+request_176,469.33,affordable_later,wait,none,2025-03-15,none,The full EUR 1239.70 is not safe now but is expected to be safe from 2025-03-15 while protecting the minimum balance.
+request_177,1017.60,affordable_now,full_payment,2026-01-05:1017.60,2026-01-05,none,USD 1017.60 of USD 1017.60 is safe to pay now while keeping the minimum balance protected.
+request_178,2938.10,affordable_with_plan,installments,2024-12-07:1018.54|2025-01-07:1018.54|2025-02-07:1018.54,2024-12-07,none,The full EUR 2938.10 can be completed through the selected installment plan while protecting the minimum balance.
+request_179,14489069.84,affordable_later,wait,none,2025-06-15,none,The full IDR 41648000.00 is not safe now but is expected to be safe from 2025-06-15 while protecting the minimum balance.
+request_180,5984.00,not_affordable,not_recommended,none,,none,"Only INR 5984.00 is currently safe, so the requested INR 66500.00 should not proceed."
+request_181,557.65,affordable_later,wait,none,2024-05-15,none,The full USD 5059.20 is not safe now but is expected to be safe from 2024-05-15 while protecting the minimum balance.
+request_182,65714.00,affordable_now,full_payment,2025-08-05:65714.00,2025-08-05,none,ZAR 65714.00 of ZAR 65714.00 is safe to pay now while keeping the minimum balance protected.
+request_183,26866000.00,affordable_with_plan,installments,2026-04-10:9313546.67|2026-05-10:9313546.67|2026-06-09:9313546.67,2026-04-07,none,The full IDR 26866000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_184,20376.59,not_affordable,not_recommended,none,,none,"Only INR 20376.59 is currently safe, so the requested INR 251900.00 should not proceed."
+request_185,491.77,affordable_later,wait,none,2025-11-15,none,The full EUR 1257.30 is not safe now but is expected to be safe from 2025-11-15 while protecting the minimum balance.
+request_186,10220.69,affordable_later,wait,none,2026-01-15,none,The full ZAR 26554.00 is not safe now but is expected to be safe from 2026-01-15 while protecting the minimum balance.
+request_187,45013.50,affordable_later,wait,none,2024-09-15,none,The full INR 187500.00 is not safe now but is expected to be safe from 2024-09-15 while protecting the minimum balance.
+request_188,238.30,not_affordable,not_recommended,none,,none,"Only EUR 238.30 is currently safe, so the requested EUR 2464.00 should not proceed."
+request_189,488.40,affordable_now,full_payment,2026-07-04:488.40,2026-07-04,none,EUR 488.40 of EUR 488.40 is safe to pay now while keeping the minimum balance protected.
+request_190,808.11,affordable_later,wait,none,2024-12-15,none,The full EUR 2557.50 is not safe now but is expected to be safe from 2024-12-15 while protecting the minimum balance.
+request_191,664.40,affordable_now,full_payment,2025-05-03:664.40,2025-05-03,none,EUR 664.40 of EUR 664.40 is safe to pay now while keeping the minimum balance protected.
+request_192,156.81,not_affordable,not_recommended,none,,none,"Only USD 156.81 is currently safe, so the requested USD 2046.00 should not proceed."
+request_193,0.00,not_affordable,not_recommended,none,,none,The requested EUR 1212.20 cannot be completed safely while protecting the minimum balance.
+request_194,47429.67,affordable_later,wait,none,2025-09-15,none,The full INR 132800.00 is not safe now but is expected to be safe from 2025-09-15 while protecting the minimum balance.
+request_195,1044.95,affordable_with_plan,installments,2026-01-09:405.74|2026-02-08:405.74|2026-03-10:405.74,2026-01-15,none,The full EUR 1170.40 can be completed through the selected installment plan while protecting the minimum balance.
+request_196,762.30,affordable_now,full_payment,2024-06-03:762.30,2024-06-03,none,EUR 762.30 of EUR 762.30 is safe to pay now while keeping the minimum balance protected.
+request_197,32936562.54,not_affordable,not_recommended,none,,none,"Only IDR 32936562.54 is currently safe, so the requested IDR 50939000.00 should not proceed."
+request_198,185800.00,affordable_now,full_payment,2026-07-07:185800.00,2026-07-07,none,INR 185800.00 of INR 185800.00 is safe to pay now while keeping the minimum balance protected.
+request_199,23674000.00,affordable_with_plan,installments,2024-09-07:8206986.67|2024-10-08:8206986.67|2024-11-08:8206986.67,2024-09-04,none,The full IDR 23674000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_200,21717000.00,affordable_now,full_payment,2025-02-06:21717000.00,2025-02-06,none,IDR 21717000.00 of IDR 21717000.00 is safe to pay now while keeping the minimum balance protected.
+request_201,23997000.00,affordable_now,full_payment,2026-04-03:23997000.00,2026-04-03,none,IDR 23997000.00 of IDR 23997000.00 is safe to pay now while keeping the minimum balance protected.
+request_202,123900.00,affordable_now,full_payment,2024-12-05:123900.00,2024-12-05,none,INR 123900.00 of INR 123900.00 is safe to pay now while keeping the minimum balance protected.
+request_203,1442.10,affordable_with_plan,installments,2025-05-10:499.93|2025-06-07:499.93|2025-07-05:499.93,2025-05-07,none,The full EUR 1442.10 can be completed through the selected installment plan while protecting the minimum balance.
+request_204,0.00,not_affordable,not_recommended,none,,none,The requested EUR 588.74 cannot be completed safely while protecting the minimum balance.
+request_205,10621000.00,affordable_now,full_payment,2024-03-06:10621000.00,2024-03-06,none,IDR 10621000.00 of IDR 10621000.00 is safe to pay now while keeping the minimum balance protected.
+request_206,1404.70,affordable_with_plan,installments,2025-08-03:486.96|2025-08-31:486.96|2025-09-28:486.96,2025-08-03,none,The full EUR 1404.70 can be completed through the selected installment plan while protecting the minimum balance.
+request_207,6965.65,affordable_later,wait,none,2026-07-15,none,The full ZAR 11830.00 is not safe now but is expected to be safe from 2026-07-15 while protecting the minimum balance.
+request_208,4413000.00,affordable_now,full_payment,2024-06-07:4413000.00,2024-06-07,none,IDR 4413000.00 of IDR 4413000.00 is safe to pay now while keeping the minimum balance protected.
+request_209,1984.43,affordable_later,wait,none,2026-02-15,none,The full ZAR 56914.00 is not safe now but is expected to be safe from 2026-02-15 while protecting the minimum balance.
+request_210,1100.68,affordable_with_plan,installments,2026-04-06:471.48|2026-05-04:471.48|2026-06-01:471.48,2026-04-15,none,The full USD 1360.02 can be completed through the selected installment plan while protecting the minimum balance.
+request_211,86.35,not_affordable,not_recommended,none,,none,"Only EUR 86.35 is currently safe, so the requested EUR 1788.60 should not proceed."
+request_212,7816237.96,not_affordable,not_recommended,none,,none,"Only IDR 7816237.96 is currently safe, so the requested IDR 71934000.00 should not proceed."
+request_213,3362.40,affordable_with_plan,installments,2026-01-21:1165.63|2026-02-20:1165.63|2026-03-22:1165.63,2026-01-07,none,The full USD 3362.40 can be completed through the selected installment plan while protecting the minimum balance.
+request_214,69750.00,affordable_with_plan,installments,2024-12-04:36270.00|2025-01-01:36270.00,2024-12-04,none,The full INR 69750.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_215,29986.00,affordable_with_plan,installments,2025-05-09:10395.15|2025-06-06:10395.15|2025-07-04:10395.15,2025-05-06,none,The full ZAR 29986.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_216,721.02,affordable_later,wait,none,2026-07-15,none,The full USD 3332.40 is not safe now but is expected to be safe from 2026-07-15 while protecting the minimum balance.
+request_217,23227.42,affordable_with_plan,installments,2024-03-19:12889.07|2024-04-19:12889.07|2024-05-20:12889.07,2024-03-15,none,The full ZAR 37180.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_218,27499798.58,affordable_with_plan,installments,2025-08-07:21195893.33|2025-09-04:21195893.33|2025-10-02:21195893.33,2025-08-15,none,The full IDR 61142000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_219,670.26,not_affordable,not_recommended,none,,none,"Only EUR 670.26 is currently safe, so the requested EUR 1673.10 should not proceed."
+request_220,0.00,not_affordable,not_recommended,none,,none,The requested EUR 3118.50 cannot be completed safely while protecting the minimum balance.
+request_221,109800.00,affordable_now,full_payment,2025-11-03:109800.00,2025-11-03,none,INR 109800.00 of INR 109800.00 is safe to pay now while keeping the minimum balance protected.
+request_222,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 34078.00 cannot be completed safely while protecting the minimum balance.
+request_223,898.70,affordable_now,full_payment,2024-09-07:898.70,2024-09-07,none,EUR 898.70 of EUR 898.70 is safe to pay now while keeping the minimum balance protected.
+request_224,10327000.00,affordable_with_plan,installments,2025-02-04:5370040.00|2025-03-04:5370040.00,2025-02-04,none,The full IDR 10327000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_225,11206743.16,affordable_with_plan,installments,2026-07-20:7647120.00|2026-08-19:7647120.00|2026-09-18:7647120.00,2026-08-15,none,The full IDR 22059000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_226,157000.00,affordable_now,full_payment,2024-12-03:157000.00,2024-12-03,none,INR 157000.00 of INR 157000.00 is safe to pay now while keeping the minimum balance protected.
+request_227,16271.22,affordable_later,wait,none,2025-08-15,none,The full INR 259700.00 is not safe now but is expected to be safe from 2025-08-15 while protecting the minimum balance.
+request_228,0.00,not_affordable,not_recommended,none,,none,The requested IDR 63327000.00 cannot be completed safely while protecting the minimum balance.
+request_229,537.93,affordable_with_plan,installments,2024-03-18:529.29|2024-04-18:529.29|2024-05-19:529.29,2024-04-15,none,The full EUR 1526.80 can be completed through the selected installment plan while protecting the minimum balance.
+request_230,3537.60,affordable_now,full_payment,2025-08-06:3537.60,2025-08-06,none,EUR 3537.60 of EUR 3537.60 is safe to pay now while keeping the minimum balance protected.
+request_231,35706.00,affordable_with_plan,installments,2026-01-06:12378.08|2026-02-05:12378.08|2026-03-07:12378.08,2026-01-03,none,The full ZAR 35706.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_232,0.00,not_affordable,not_recommended,none,,none,The requested EUR 1970.10 cannot be completed safely while protecting the minimum balance.
+request_233,0.00,not_affordable,not_recommended,none,,none,The requested IDR 6241000.00 cannot be completed safely while protecting the minimum balance.
+request_234,324.26,affordable_later,wait,none,2026-08-15,none,The full EUR 1213.30 is not safe now but is expected to be safe from 2026-08-15 while protecting the minimum balance.
+request_235,967.20,affordable_now,full_payment,2024-09-06:967.20,2024-09-06,none,USD 967.20 of USD 967.20 is safe to pay now while keeping the minimum balance protected.
+request_236,7243023.99,affordable_later,wait,none,2025-05-15,none,The full IDR 52383000.00 is not safe now but is expected to be safe from 2025-05-15 while protecting the minimum balance.
+request_237,0.00,not_affordable,not_recommended,none,,none,The requested IDR 23826000.00 cannot be completed safely while protecting the minimum balance.
+request_238,663.60,affordable_with_plan,installments,2024-12-07:230.05|2025-01-07:230.05|2025-02-07:230.05,2024-12-07,none,The full USD 663.60 can be completed through the selected installment plan while protecting the minimum balance.
+request_239,0.00,not_affordable,not_recommended,none,,none,The requested USD 642.00 cannot be completed safely while protecting the minimum balance.
+request_240,0.00,not_affordable,not_recommended,none,,none,The requested INR 101200.00 cannot be completed safely while protecting the minimum balance.
+request_241,21052000.00,affordable_with_plan,installments,2024-03-17:7298026.67|2024-04-17:7298026.67|2024-05-18:7298026.67,2024-03-03,none,The full IDR 21052000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_242,0.00,not_affordable,not_recommended,none,,none,The requested EUR 1966.80 cannot be completed safely while protecting the minimum balance.
+request_243,17468.00,affordable_now,full_payment,2026-07-07:17468.00,2026-07-07,none,ZAR 17468.00 of ZAR 17468.00 is safe to pay now while keeping the minimum balance protected.
+request_244,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 49918.00 cannot be completed safely while protecting the minimum balance.
+request_245,40476.85,affordable_later,wait,none,2025-11-15,none,The full INR 128500.00 is not safe now but is expected to be safe from 2025-11-15 while protecting the minimum balance.
+request_246,64086.00,affordable_with_plan,installments,2026-04-03:22216.48|2026-05-03:22216.48|2026-06-02:22216.48,2026-04-03,none,The full ZAR 64086.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_247,0.00,not_affordable,not_recommended,none,,none,The requested EUR 1059.30 cannot be completed safely while protecting the minimum balance.
+request_248,0.00,not_affordable,not_recommended,none,,none,The requested USD 1965.60 cannot be completed safely while protecting the minimum balance.
+request_249,214.40,affordable_later,wait,none,2026-02-15,none,The full USD 643.20 is not safe now but is expected to be safe from 2026-02-15 while protecting the minimum balance.
+request_250,17762.28,affordable_later,wait,none,2025-01-15,none,The full ZAR 124278.00 is not safe now but is expected to be safe from 2025-01-15 while protecting the minimum balance.
+request_251,1162.19,not_affordable,not_recommended,none,,none,"Only EUR 1162.19 is currently safe, so the requested EUR 1513.60 should not proceed."
+request_252,6920874.65,affordable_later,wait,none,2026-08-15,none,The full IDR 28082000.00 is not safe now but is expected to be safe from 2026-08-15 while protecting the minimum balance.
+request_253,1478.88,affordable_with_plan,installments,2024-03-21:984.60|2024-04-21:984.60|2024-05-22:984.60,2024-04-15,none,The full EUR 2840.20 can be completed through the selected installment plan while protecting the minimum balance.
+request_254,824.45,affordable_later,wait,none,2025-09-15,none,The full USD 3535.20 is not safe now but is expected to be safe from 2025-09-15 while protecting the minimum balance.
+request_255,3345000.00,affordable_now,full_payment,2026-04-06:3345000.00,2026-04-06,none,IDR 3345000.00 of IDR 3345000.00 is safe to pay now while keeping the minimum balance protected.
+request_256,133937.27,not_affordable,not_recommended,none,,none,"Only INR 133937.27 is currently safe, so the requested INR 218700.00 should not proceed."
+request_257,661.91,affordable_later,wait,none,2025-11-15,none,The full USD 1352.40 is not safe now but is expected to be safe from 2025-11-15 while protecting the minimum balance.
+request_258,1113.60,affordable_now,full_payment,2026-01-07:1113.60,2026-01-07,none,USD 1113.60 of USD 1113.60 is safe to pay now while keeping the minimum balance protected.
+request_259,248.47,affordable_later,wait,none,2024-10-15,none,The full EUR 935.00 is not safe now but is expected to be safe from 2024-10-15 while protecting the minimum balance.
+request_260,11491991.75,affordable_later,wait,none,2025-02-15,none,The full IDR 52079000.00 is not safe now but is expected to be safe from 2025-02-15 while protecting the minimum balance.
+request_261,1830.40,affordable_now,full_payment,2026-07-03:1830.40,2026-07-03,none,EUR 1830.40 of EUR 1830.40 is safe to pay now while keeping the minimum balance protected.
+request_262,9236000.00,affordable_now,full_payment,2024-12-05:9236000.00,2024-12-05,none,IDR 9236000.00 of IDR 9236000.00 is safe to pay now while keeping the minimum balance protected.
+request_263,9282.46,affordable_later,wait,none,2025-06-15,none,The full ZAR 51546.00 is not safe now but is expected to be safe from 2025-06-15 while protecting the minimum balance.
+request_264,27291.46,affordable_later,wait,none,2026-05-15,none,The full INR 111300.00 is not safe now but is expected to be safe from 2026-05-15 while protecting the minimum balance.
+request_265,0.00,not_affordable,not_recommended,none,,none,The requested INR 45970.00 cannot be completed safely while protecting the minimum balance.
+request_266,859.63,affordable_with_plan,installments,2025-08-03:324.13|2025-08-31:324.13|2025-09-28:324.13,2025-08-15,none,The full EUR 935.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_267,1847.77,affordable_with_plan,installments,2026-01-08:667.33|2026-02-07:667.33|2026-03-09:667.33,2026-01-15,none,The full EUR 1925.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_268,1134.52,affordable_with_plan,installments,2024-06-14:841.22|2024-07-15:841.22|2024-08-15:841.22,2024-07-15,none,The full EUR 2426.60 can be completed through the selected installment plan while protecting the minimum balance.
+request_269,0.00,not_affordable,not_recommended,none,,none,The requested ZAR 15490.00 cannot be completed safely while protecting the minimum balance.
+request_270,242.77,affordable_later,wait,none,2026-09-15,none,The full USD 3028.80 is not safe now but is expected to be safe from 2026-09-15 while protecting the minimum balance.
+request_271,29294.34,affordable_later,wait,none,2024-10-15,none,The full INR 91300.00 is not safe now but is expected to be safe from 2024-10-15 while protecting the minimum balance.
+request_272,6102616.21,affordable_with_plan,installments,2025-02-12:4709466.67|2025-03-12:4709466.67|2025-04-09:4709466.67,2025-02-15,none,The full IDR 13585000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_273,10764260.96,affordable_with_plan,installments,2026-04-07:5498480.00|2026-05-05:5498480.00|2026-06-02:5498480.00,2026-04-15,none,The full IDR 15861000.00 can be completed through the selected installment plan while protecting the minimum balance.
+request_274,2449.98,affordable_with_plan,installments,2024-12-04:940.75|2025-01-04:940.75|2025-02-04:940.75,2024-12-15,none,The full EUR 2713.70 can be completed through the selected installment plan while protecting the minimum balance.
+request_275,15884000.00,affordable_now,full_payment,2025-05-06:15884000.00,2025-05-06,none,IDR 15884000.00 of IDR 15884000.00 is safe to pay now while keeping the minimum balance protected.
