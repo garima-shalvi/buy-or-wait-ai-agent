@@ -1,15 +1,14 @@
 from decimal import Decimal
 import pandas as pd
 from forecast import simulate, option_is_eligible
-
+from spending_optimizer import optimize_spending_changes, format_spending_changes
 
 def make_full_payment_plan(request_date, amount):
     return [{
-        "date": pd.Timestamp(request_date).date(),
+        "date": pd.to_datetime(request_date).date(),
         "amount": Decimal(str(amount)),
         "payment_id": "request_payment_1"
     }]
-
 
 def make_installment_plan(option):
     first_date = pd.to_datetime(option["first_payment_date"])
@@ -20,8 +19,7 @@ def make_installment_plan(option):
     return [
         {
             "date": (
-                first_date +
-                pd.Timedelta(days=frequency * i)
+                first_date + pd.Timedelta(days=frequency * i)
             ).date(),
             "amount": amount,
             "payment_id": f"request_payment_{i + 1}"
@@ -29,85 +27,18 @@ def make_installment_plan(option):
         for i in range(number_of_payments)
     ]
 
-
 def plan_end_date(plan):
     return max(payment["date"] for payment in plan)
 
-
-def run_simulation(
-    state,
-    request_date,
-    base_cash_events,
-    payment_plan
-):
-    result = simulate(
-        state,
-        request_date,
-        base_cash_events,
-        payment_plan
+def plan_total(plan):
+    return sum(
+        (Decimal(str(payment["amount"])) for payment in plan),
+        Decimal("0")
     )
-
-    return (
-        result["safe"],
-        result["minimum_balance_seen"],
-        result["ending_balance"]
-    )
-
-
-def calculate_safe_amount(
-    state,
-    request_date,
-    base_cash_events,
-    requested_amount
-):
-    requested_amount = Decimal(str(requested_amount))
-
-    if requested_amount <= 0:
-        return Decimal("0")
-
-    full_plan = make_full_payment_plan(
-        request_date,
-        requested_amount
-    )
-
-    safe, _, _ = run_simulation(
-        state,
-        request_date,
-        base_cash_events,
-        full_plan
-    )
-
-    if safe:
-        return requested_amount
-
-    low = Decimal("0")
-    high = requested_amount
-
-    for _ in range(60):
-        mid = (low + high) / Decimal("2")
-
-        test_plan = make_full_payment_plan(
-            request_date,
-            mid
-        )
-
-        safe, _, _ = run_simulation(
-            state,
-            request_date,
-            base_cash_events,
-            test_plan
-        )
-
-        if safe:
-            low = mid
-        else:
-            high = mid
-
-    return low
-
 
 def candidate_plans(context, state, base_cash_events):
     request = context["request"]
+    options = context["payment_options"]
 
     request_date = pd.to_datetime(
         request["request_date"]
@@ -117,53 +48,45 @@ def candidate_plans(context, state, base_cash_events):
         request["desired_completion_date"]
     ).date()
 
-    requested_amount = Decimal(
-        str(request["requested_amount"])
-    )
-
-    methods = {
-        str(x).strip().lower()
-        for x in state.payment_methods
-    }
+    amount = Decimal(str(request["requested_amount"]))
 
     candidates = []
 
-    if "full_payment" in methods:
+    if "full_payment" in state.payment_methods:
         plan = make_full_payment_plan(
             request_date,
-            requested_amount
+            amount
         )
 
         candidates.append({
             "method": "full_payment",
             "payment_plan": plan,
             "spending_changes_needed": [],
-            "total_paid": requested_amount,
-            "end_date": request_date
+            "spending_changes": [],
+            "total_paid": amount,
+            "end_date": request_date,
+            "payment_option_id": None
         })
 
-    if "installments" in methods:
-        options = context["payment_options"]
-
+    if "installments" in state.payment_methods:
         for _, option in options.iterrows():
             if str(option["payment_method"]).lower() != "installments":
-                continue
-
-            required_fields = [
-                "first_payment_date",
-                "payment_frequency_days",
-                "number_of_payments",
-                "payment_amount",
-                "total_payable_amount"
-            ]
-
-            if any(pd.isna(option[field]) for field in required_fields):
                 continue
 
             if not option_is_eligible(
                 option,
                 state.max_installment_months
             ):
+                continue
+
+            required = [
+                "first_payment_date",
+                "payment_frequency_days",
+                "number_of_payments",
+                "payment_amount"
+            ]
+
+            if any(pd.isna(option[x]) for x in required):
                 continue
 
             plan = make_installment_plan(option)
@@ -176,17 +99,13 @@ def candidate_plans(context, state, base_cash_events):
                 "method": "installments",
                 "payment_plan": plan,
                 "spending_changes_needed": [],
-                "total_paid": Decimal(
-                    str(option["total_payable_amount"])
-                ),
+                "spending_changes": [],
+                "total_paid": plan_total(plan),
                 "end_date": end_date,
-                "payment_option_id": int(
-                    option["payment_option_id"]
-                )
+                "payment_option_id": int(option["payment_option_id"])
             })
 
     return candidates
-
 
 def validate_candidates(
     candidates,
@@ -194,23 +113,50 @@ def validate_candidates(
     request_date,
     base_cash_events
 ):
-    valid = []
+    validated = []
 
     for candidate in candidates:
-        safe, minimum_seen, ending_balance = run_simulation(
+        result = simulate(
             state,
             request_date,
             base_cash_events,
             candidate["payment_plan"]
         )
 
-        if not safe:
+        if result["safe"]:
+            valid = dict(candidate)
+            valid["minimum_balance_seen"] = result[
+                "minimum_balance_seen"
+            ]
+            valid["ending_balance"] = result[
+                "ending_balance"
+            ]
+            validated.append(valid)
             continue
 
-        result = dict(candidate)
-        result["minimum_balance_seen"] = minimum_seen
-        result["ending_balance"] = ending_balance
+        spending_results = optimize_spending_changes(
+            state,
+            request_date,
+            base_cash_events,
+            candidate["payment_plan"]
+        )
 
-        valid.append(result)
+        for spending_result in spending_results:
+            changes = spending_result["changes"]
 
-    return valid
+            valid = dict(candidate)
+
+            valid["spending_changes"] = changes
+            valid["spending_changes_needed"] = (
+                format_spending_changes(changes)
+            )
+            valid["minimum_balance_seen"] = (
+                spending_result["minimum_balance_seen"]
+            )
+            valid["ending_balance"] = (
+                spending_result["ending_balance"]
+            )
+
+            validated.append(valid)
+
+    return validated

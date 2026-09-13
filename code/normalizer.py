@@ -1,12 +1,15 @@
 from decimal import Decimal
 import pandas as pd
 
+
 def get_rate(exchange_rates, date, from_currency, to_currency):
     if from_currency == to_currency:
         return Decimal("1")
 
+    date = str(pd.to_datetime(date).date())
+
     rates = exchange_rates[
-        (exchange_rates["rate_date"] == date) &
+        (exchange_rates["rate_date"].astype(str) == date) &
         (exchange_rates["from_currency"] == from_currency) &
         (exchange_rates["to_currency"] == to_currency)
     ]
@@ -18,10 +21,17 @@ def get_rate(exchange_rates, date, from_currency, to_currency):
 
     return Decimal(str(rates.iloc[0]["rate"]))
 
+
 def normalize_events(events, profiles, exchange_rates):
     events = events.copy()
 
-    home_currency_map = profiles.set_index("user_id")["home_currency"]
+    home_currency_map = profiles.set_index(
+        "user_id"
+    )["home_currency"]
+
+    events["_home_currency"] = events["user_id"].map(
+        home_currency_map
+    )
 
     normalized_amounts = []
 
@@ -32,13 +42,11 @@ def normalize_events(events, profiles, exchange_rates):
             normalized_amounts.append(None)
             continue
 
-        home_currency = home_currency_map[event["user_id"]]
-
         rate = get_rate(
             exchange_rates,
             event["event_date"],
             event["currency"],
-            home_currency
+            event["_home_currency"]
         )
 
         normalized_amounts.append(
@@ -46,33 +54,5 @@ def normalize_events(events, profiles, exchange_rates):
         )
 
     events["amount_home"] = normalized_amounts
+
     return events
-
-if __name__ == "__main__":
-    from data_loader import load_data
-
-    data = load_data()
-
-    events = normalize_events(
-        data["events"],
-        data["profiles"],
-        data["exchange_rates"]
-    )
-
-    different_currency = events[
-        events["currency"] != events["user_id"].map(
-            data["profiles"].set_index("user_id")["home_currency"]
-        )
-    ]
-
-    print(
-        different_currency[
-            [
-                "event_id",
-                "user_id",
-                "amount",
-                "currency",
-                "amount_home"
-            ]
-        ].head(20).to_string(index=False)
-    )
