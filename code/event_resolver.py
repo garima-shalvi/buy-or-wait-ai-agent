@@ -1,9 +1,7 @@
 import pandas as pd
 
-
 def resolve_events(events):
     events = events.copy()
-
     events["include"] = True
     events["cash_effect"] = "none"
     events["resolution"] = "standalone"
@@ -14,17 +12,9 @@ def resolve_events(events):
     }
 
     for index, event in events.iterrows():
-        event_type = str(
-            event["event_type"]
-        ).lower().strip()
-
-        status = str(
-            event["status"]
-        ).lower().strip()
-
-        direction = str(
-            event["direction"]
-        ).lower().strip()
+        event_type = str(event["event_type"]).lower().strip()
+        status = str(event["status"]).lower().strip()
+        direction = str(event["direction"]).lower().strip()
 
         if event_type == "investment_valuation":
             events.at[index, "include"] = False
@@ -46,17 +36,14 @@ def resolve_events(events):
 
         if direction == "debit":
             events.at[index, "cash_effect"] = "expense"
-
         elif direction == "credit":
             if event_type == "refund":
                 events.at[index, "cash_effect"] = "refund"
             else:
                 events.at[index, "cash_effect"] = "income"
-
         elif direction == "non_cash":
             events.at[index, "include"] = False
             events.at[index, "cash_effect"] = "non_cash"
-
         else:
             events.at[index, "include"] = False
             events.at[index, "cash_effect"] = "none"
@@ -76,18 +63,10 @@ def resolve_events(events):
         linked_index = event_lookup[linked_id]
         linked = events.loc[linked_index]
 
-        event_status = str(
-            event["status"]
-        ).lower().strip()
+        event_status = str(event["status"]).lower().strip()
+        linked_status = str(linked["status"]).lower().strip()
 
-        linked_status = str(
-            linked["status"]
-        ).lower().strip()
-
-        if event_status == "settled" and linked_status in {
-            "pending",
-            "cancelled"
-        }:
+        if event_status == "settled" and linked_status in {"pending", "cancelled"}:
             events.at[index, "resolution"] = "settled_replacement"
             events.at[linked_index, "include"] = False
             events.at[linked_index, "cash_effect"] = "none"
