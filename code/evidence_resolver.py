@@ -1,5 +1,6 @@
 import os
 import json
+import pandas as pd
 from groq import Groq
 from dataclasses import dataclass
 from decimal import Decimal
@@ -234,3 +235,33 @@ if __name__ == "__main__":
     result = extract_evidence(message["message_text"])
 
     print(json.dumps(result, indent=2))
+
+def resolve_evidence(context):
+    facts = []
+
+    for _, message in context["messages"].iterrows():
+        extracted = extract_evidence(message["message_text"])
+
+        if isinstance(extracted, dict):
+            extracted = [extracted]
+
+        for fact in extracted:
+            fact["source"] = "messages"
+            fact["source_ref"] = message["message_id"]
+
+            if not fact.get("event_id"):
+                fact["event_id"] = (
+                    message["related_event_id"]
+                    if pd.notna(message["related_event_id"])
+                    else None
+                )
+
+            if not fact.get("as_of_date"):
+                fact["as_of_date"] = str(message["sent_at"])[:10]
+
+            if not fact.get("source_timestamp"):
+                fact["source_timestamp"] = str(message["sent_at"])
+
+            facts.append(fact)
+
+    return facts
